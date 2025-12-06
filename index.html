@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Angolla | Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Praveen Angolla.</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Praveen Angolla</h1>
+            <h2 class="role-title">Data Analyst & ML Enthusiast</h2>
+            <p>
+                Specializing in Python, SQL, and Power BI. I translate raw data into actionable business insights, revenue growth, and predictive models.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="mailto:praveengoudangolla58@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="https://res.cloudinary.com/dir9xnqbl/image/upload/v1765025358/Praveen_Linkedin_photo_pq2xpz.png" alt="Praveen Angolla">
+        </div>
+    </section>
+    <section id="about" style="background-color: #162033;"> <div class="section-title">About <span>Me</span></div>
+        
+        <div class="about-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p style="font-size: 1.1rem; color: #cbd5e1; margin-bottom: 1.5rem;">
+                I am a Data Analyst based in <strong>Denver, CO</strong>, currently pursuing my <strong>Master of Science in Data Science</strong> at Regis University. With a strong technical foundation in Computer Science, I specialize in transforming complex datasets into clear, actionable business strategies.
+            </p>
+
+            <p style="font-size: 1.1rem; color: #94a3b8; margin-bottom: 1.5rem;">
+                My expertise lies in the intersection of <strong>Data Engineering, Analysis, and Machine Learning</strong>. I have successfully led end-to-end projects involving web scraping, cleaning over <strong>290,000+ transaction records</strong>, and developing predictive models that drive revenue growth.
+            </p>
+
+            <p style="font-size: 1.1rem; color: #94a3b8;">
+                Whether it is automating KPI reporting using <strong>Python & SQL</strong> or visualizing trends in <strong>Power BI & Tableau</strong>, I am passionate about translating business requirements into data-driven solutions that solve real-world problems.
+            </p>
+
+            <br><br>
+            <div style="display: flex; justify-content: center; gap: 3rem; margin-top: 2rem;">
+                <div style="text-align: center;">
+                    <h2 style="color: #38bdf8; font-size: 2.5rem; font-weight: 700;">290K+</h2>
+                    <p style="color: #fff; font-size: 0.9rem;">Records Analyzed</p>
+                </div>
+                <div style="text-align: center;">
+                    <h2 style="color: #38bdf8; font-size: 2.5rem; font-weight: 700;">91%</h2>
+                    <p style="color: #fff; font-size: 0.9rem;">Model Accuracy</p>
+                </div>
+                <div style="text-align: center;">
+                    <h2 style="color: #38bdf8; font-size: 2.5rem; font-weight: 700;">$9.2M</h2>
+                    <p style="color: #fff; font-size: 0.9rem;">Revenue Insights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-title">My <span>Expertise</span></div>
+        <div class="section-subtitle">Tools and technologies I use to drive insights</div>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <h3>Python & Analysis</h3>
+                <div class="skill-list">
+                    <span class="tag">Pandas</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">Scikit-Learn</span>
+                    <span class="tag">Web Scraping</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h3>Data Management</h3>
+                <div class="skill-list">
+                    <span class="tag">SQL (Joins/CTEs)</span>
+                    <span class="tag">ETL Pipelines</span>
+                    <span class="tag">Data Cleaning</span>
+                    <span class="tag">Optimization</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
+                <h3>Visualization</h3>
+                <div class="skill-list">
+                    <span class="tag">Power BI</span>
+                    <span class="tag">Tableau</span>
+                    <span class="tag">Excel</span>
+                    <span class="tag">Matplotlib</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title">Featured <span>Projects</span></div>
+        <div class="section-subtitle">Real-world solutions and data-driven results</div>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Sales Trend Analysis</h3>
+                    <p class="project-desc">
+                        Analysed 12 months of sales data (290k+ records) to identify seasonality and customer behavior using Python.
+                    </p>
+                    <ul>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Identified $9.2M revenue peak in Dec</span></li>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Optimized ad timing (11 AM & 7 PM)</span></li>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Tech: Python, Seaborn, Plotly</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">End-to-End Analytics Pipeline</h3>
+                    <p class="project-desc">
+                        Built a complete data pipeline by scraping live product data and combining it with sales datasets for KPI reporting.
+                    </p>
+                    <ul>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Found 40-55% margin categories</span></li>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Analyzed 70-80% delivery efficiency</span></li>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Tech: Beautiful Soup, Power BI</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Customer Churn Prediction (ML)</h3>
+                    <p class="project-desc">
+                        Developed machine learning classification models to predict telecom customer churn based on billing and usage.
+                    </p>
+                    <ul>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Achieved 86-91% Model Accuracy</span></li>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Improved F1-Score to 0.82</span></li>
+                        <li><span class="highlight-stat"><i class="fas fa-check-circle"></i> Tech: Random Forest, XGBoost</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-title">Education & <span>Certifications</span></div>
+        <br><br>
+        <div class="resume-container">
+            <div class="resume-col">
+                <h3 class="col-title">Education</h3>
+                
+                <div class="resume-item">
+                    <div class="resume-date">Expected May 2026</div>
+                    <div class="resume-degree">Master of Science in Data Science</div>
+                    <div class="resume-school">Regis University - Denver, CO</div>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date">June 2023</div>
+                    <div class="resume-degree">Bachelor of Science in Computer Science</div>
+                    <div class="resume-school">Osmania University - Hyderabad, India</div>
+                </div>
+            </div>
+
+            <div class="resume-col">
+                <h3 class="col-title">Certificates</h3>
+                
+                <div class="resume-item">
+                    <div class="resume-degree">IBM Data Analyst Professional Certificate</div>
+                    <div class="resume-school">IBM</div>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-degree">Google Data Analytics Certification</div>
+                    <div class="resume-school">Google</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">Get In <span>Touch</span></div>
+        <p class="section-subtitle">Currently based in Denver, CO and open to opportunities.</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope icon-accent"></i>
+                    <a href="mailto:praveengoudangolla58@gmail.com" style="text-decoration: none; color: inherit;">praveengoudangolla58@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone icon-accent"></i>
+                    <a href="tel:3036688918" style="text-decoration: none; color: inherit;">303-668-8918</a>
+                </div>
+            </div>
+            <a href="mailto:praveengoudangolla58@gmail.com" class="btn">Send Me an Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Praveen Angolla. Built with HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
