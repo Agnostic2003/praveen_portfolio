@@ -8,10 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="loading">
+
+    <div id="boot-screen">
+        <div class="boot-content">
+            <div class="boot-logo"><i class="fas fa-microchip"></i> SYSTEM_BOOT</div>
+            <div class="terminal-text-area">
+                <p id="boot-text"></p>
+                <span class="cursor-blink">_</span>
+            </div>
+            <div class="loading-bar-container">
+                <div class="loading-bar-fill"></div>
+            </div>
+            <div class="percentage">0%</div>
+        </div>
+    </div>
 
     <canvas id="neural-canvas"></canvas>
-    
     <div class="overlay-grid"></div>
 
     <div class="cursor-outer"></div>
@@ -58,7 +71,7 @@
             
             <div class="hero-visual">
                 <div class="img-frame" data-tilt>
-                    <img src="https://res.cloudinary.com/dir9xnqbl/image/upload/v1765025358/Praveen_Linkedin_photo_pq2xpz.png" alt="Praveen Angolla">
+                    <img src="praveen.jpg" alt="Praveen Angolla">
                     <div class="scan-line"></div>
                 </div>
                 <div class="floating-stat stat-1" data-magnetic>
@@ -193,7 +206,7 @@
                     <i class="fas fa-phone"></i>
                     <span>VOICE_CALL()</span>
                 </a>
-                <a href="www.linkedin.com/in/angolla-praveengoud" target="_blank" class="contact-btn" data-magnetic>
+                <a href="https://linkedin.com" target="_blank" class="contact-btn" data-magnetic>
                     <i class="fab fa-linkedin"></i>
                     <span>LINKEDIN</span>
                 </a>
