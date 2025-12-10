@@ -3,197 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRAVEEN ANGOLLA | DATA ARCHITECT</title>
-
-    <!-- SEO Meta -->
-    <meta name="description" content="Praveen Angolla – Data Analyst & ML Specialist based in Denver, CO. Turning 290K+ rows into $9.2M insights with analytics, machine learning, and modern data pipelines.">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- Icons -->
+    <title>PRAVEEN ANGOLLA | AI ARCHITECT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="loading">
+<body>
 
-    <!-- Custom Cursor Elements -->
-    <div class="cursor-dot" data-cursor-dot></div>
-    <div class="cursor-outline" data-cursor-outline></div>
+    <canvas id="neural-canvas"></canvas>
+    
+    <div class="overlay-grid"></div>
 
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader-text">INITIALIZING DATA STREAMS</div>
-        <div class="loader-bar"><div class="bar-fill"></div></div>
-    </div>
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
 
-    <!-- Background FX -->
-    <div class="noise"></div>
-    <div class="grid-bg"></div>
-
-    <!-- Navigation -->
     <nav>
-        <div class="logo">PRAVEEN<span class="accent">.</span>DATA</div>
-        <div class="menu-btn">
-            <a href="mailto:praveengoudangolla58@gmail.com">HIRE ME</a>
+        <div class="brand" data-magnetic>
+            <i class="fas fa-microchip"></i> PRAVEEN<span class="pulse">_</span>AI
+        </div>
+        <div class="nav-items">
+            <a href="#about" class="nav-link" data-magnetic>DATA_CORE</a>
+            <a href="#projects" class="nav-link" data-magnetic>MODULES</a>
+            <a href="#contact" class="btn-glitch" data-magnetic>INIT_CONTACT</a>
         </div>
     </nav>
 
-    <div id="smooth-wrapper">
-        <div id="smooth-content">
+    <header id="hero">
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <div class="status-line">
+                    <span class="dot"></span> SYSTEM ONLINE // DENVER_CO
+                </div>
+                <h1 class="glitch-text" data-text="AI ENGINEER">AI ENGINEER</h1>
+                <h2 class="sub-glitch">BUILDING INTELLIGENT ARCHITECTURES</h2>
+                
+                <div class="terminal-box">
+                    <p class="cmd">> user@praveen:~$ run_profile.exe</p>
+                    <ul class="tech-list-bullets">
+                        <li><span class="bullet">■</span> Loading M.S. Data Science [Regis Univ]</li>
+                        <li><span class="bullet">■</span> Skill: 91% Model Accuracy</li>
+                        <li><span class="bullet">■</span> Status: Open for Work</li>
+                    </ul>
+                </div>
 
-            <main id="main-content">
-                <!-- HERO -->
-                <section class="hero">
-                    <div class="hero-container">
-                        <div class="hero-tag">BASED IN DENVER, CO</div>
-                        <h1 class="glitch-header">
-                            <div class="line">DATA</div>
-                            <div class="line"><span class="outline">INTELLIGENCE</span></div>
-                            <div class="line">&amp; ANALYTICS</div>
-                        </h1>
-                        <div class="hero-footer">
-                            <div class="scroll-down">
-                                <i class="fas fa-arrow-down"></i> SCROLL TO EXPLORE
-                            </div>
-                            <div class="hero-bio">
-                                Transforming <strong>290K+ records</strong> into <strong>$9.2M revenue insights</strong> with analytics and machine learning.
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary" data-magnetic>
+                        <span class="btn-content">EXPLORE SYSTEMS</span>
+                    </a>
+                    <a href="https://github.com/your-username" target="_blank" class="btn-secondary" data-magnetic>
+                        <i class="fab fa-github"></i> GITHUB_REPO
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="img-frame" data-tilt>
+                    <img src="https://res.cloudinary.com/dir9xnqbl/image/upload/v1765025358/Praveen_Linkedin_photo_pq2xpz.png" alt="Praveen Angolla">
+                    <div class="scan-line"></div>
+                </div>
+                <div class="floating-stat stat-1" data-magnetic>
+                    <strong>290K+</strong> RECORDS
+                </div>
+                <div class="floating-stat stat-2" data-magnetic>
+                    <strong>91%</strong> ACCURACY
+                </div>
+            </div>
+        </div>
+    </header>
 
-                <!-- ABOUT -->
-                <section class="about">
-                    <div class="about-grid">
-                        <div class="about-img-wrapper">
-                            <img 
-                                src="https://res.cloudinary.com/dir9xnqbl/image/upload/v1765025358/Praveen_Linkedin_photo_pq2xpz.png" 
-                                alt="Praveen Angolla" 
-                                class="parallax-img"
-                                loading="lazy">
-                            <div class="img-overlay"></div>
-                        </div>
-                        <div class="about-text">
-                            <h2>THE ARCHITECT</h2>
-                            <p class="big-text">
-                                I am a Data Analyst &amp; ML Specialist pursuing my M.S. at Regis University.
-                            </p>
-                            <p class="desc-text">
-                                My code bridges the gap between raw chaos and clear strategy. From web scraping pipelines to XGBoost models, I build systems that turn data into decisions.
-                            </p>
-                            <div class="stats-row">
-                                <div class="stat-item">
-                                    <span class="num" data-val="91">0</span><span class="sym">%</span>
-                                    <span class="label">Model Accuracy</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="num" data-val="290">0</span><span class="sym">K+</span>
-                                    <span class="label">Rows Analyzed</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- WORK -->
-                <section class="work" id="work">
-                    <div class="work-header">
-                        <h2>SELECTED WORKS</h2>
-                        <div class="line-break"></div>
-                    </div>
-                    
-                    <div class="horizontal-scroll-wrapper">
-                        <div class="horizontal-container">
-                            
-                            <article class="project-panel">
-                                <div class="panel-content">
-                                    <div class="p-num">01</div>
-                                    <h3>REVENUE ANALYTICS</h3>
-                                    <p>Identified a $9.2M revenue peak using Python &amp; Seaborn on 12 months of E-Commerce data.</p>
-                                    <ul class="tech-list">
-                                        <li>Python</li>
-                                        <li>EDA</li>
-                                        <li>Strategy</li>
-                                    </ul>
-                                    <a href="#" class="btn-link">VIEW CASE STUDY</a>
-                                </div>
-                            </article>
-
-                            <article class="project-panel">
-                                <div class="panel-content">
-                                    <div class="p-num">02</div>
-                                    <h3>END-TO-END PIPELINE</h3>
-                                    <p>Web scraping live data merged with sales records to uncover 40–55% margin product categories.</p>
-                                    <ul class="tech-list">
-                                        <li>Web Scraping</li>
-                                        <li>Power BI</li>
-                                        <li>ETL</li>
-                                    </ul>
-                                    <a href="#" class="btn-link">VIEW PIPELINE</a>
-                                </div>
-                            </article>
-
-                            <article class="project-panel">
-                                <div class="panel-content">
-                                    <div class="p-num">03</div>
-                                    <h3>CHURN PREDICTION</h3>
-                                    <p>Machine Learning classification (XGBoost) achieving 86–91% accuracy for telecom churn retention.</p>
-                                    <ul class="tech-list">
-                                        <li>Machine Learning</li>
-                                        <li>Scikit-Learn</li>
-                                        <li>Python</li>
-                                    </ul>
-                                    <a href="#" class="btn-link">VIEW MODEL</a>
-                                </div>
-                            </article>
-
-                        </div>
-                    </div>
-                </section>
-
-                <!-- SKILLS MARQUEE -->
-                <section class="skills">
-                    <div class="marquee">
-                        <div class="track">
-                            <div class="content">
-                                PYTHON <span class="stroke">SQL</span> POWER BI <span class="stroke">TABLEAU</span> PANDAS <span class="stroke">NUMPY</span> MACHINE LEARNING <span class="stroke">ETL</span> 
-                                PYTHON <span class="stroke">SQL</span> POWER BI <span class="stroke">TABLEAU</span> PANDAS <span class="stroke">NUMPY</span> MACHINE LEARNING <span class="stroke">ETL</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- FOOTER / CONTACT -->
-                <footer class="contact">
-                    <div class="footer-container">
-                        <div class="footer-header">Let's Talk Data.</div>
-                        <div class="contact-links">
-                            <a href="mailto:praveengoudangolla58@gmail.com" class="c-link">praveengoudangolla58@gmail.com</a>
-                            <a href="tel:+13036688918" class="c-link">+1 (303) 668-8918</a>
-                        </div>
-                        <div class="socials">
-                            <!-- Replace with your actual profile URLs -->
-                            <a href="https://www.linkedin.com/in/angolla-praveengoud/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GITHUB</a>
-                        </div>
-                        <div class="copyright">
-                            © 2025 PRAVEEN ANGOLLA.
-                        </div>
-                    </div>
-                </footer>
-            </main>
-
+    <div class="cyber-banner">
+        <div class="banner-track">
+            <span>PYTHON</span> <span class="sep">■</span> 
+            <span>TENSORFLOW</span> <span class="sep">■</span> 
+            <span>XGBOOST</span> <span class="sep">■</span> 
+            <span>SQL</span> <span class="sep">■</span> 
+            <span>PANDAS</span> <span class="sep">■</span> 
+            <span>SCIKIT-LEARN</span> <span class="sep">■</span> 
+            <span>ETL PIPELINES</span> <span class="sep">■</span>
         </div>
     </div>
 
-    <!-- GSAP + ScrollTrigger -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="header-decoration">///</span>
+                <h2>DEPLOYED MODULES</h2>
+            </div>
 
-    <!-- Main Script -->
+            <div class="project-grid">
+                <div class="cyber-card" data-tilt>
+                    <div class="card-top">
+                        <span class="folder-id">ID: CHURN_PRED</span>
+                        <div class="dots"><span></span><span></span></div>
+                    </div>
+                    <h3>Predictive Classification Engine</h3>
+                    <ul class="project-bullets">
+                        <li><span class="bullet">»</span> Engineered models using Random Forest & XGBoost.</li>
+                        <li><span class="bullet">»</span> Tuned hyperparameters to <span class="highlight">0.82 F1-Score</span>.</li>
+                        <li><span class="bullet">»</span> Segmented 'At-Risk' users for retention.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>PYTHON</span><span>XGBOOST</span><span>ML</span>
+                    </div>
+                    <a href="#" class="card-link" data-magnetic>EXECUTE_VIEW()</a>
+                </div>
+
+                <div class="cyber-card" data-tilt>
+                    <div class="card-top">
+                        <span class="folder-id">ID: REV_FORECAST</span>
+                        <div class="dots"><span></span><span></span></div>
+                    </div>
+                    <h3>Revenue Forecasting System</h3>
+                    <ul class="project-bullets">
+                        <li><span class="bullet">»</span> Processed 290K+ records to model seasonality.</li>
+                        <li><span class="bullet">»</span> Identified <span class="highlight">$9.2M Revenue Peaks</span>.</li>
+                        <li><span class="bullet">»</span> Optimized marketing windows (11 AM).</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>PANDAS</span><span>SEABORN</span><span>ANALYTICS</span>
+                    </div>
+                    <a href="#" class="card-link" data-magnetic>EXECUTE_VIEW()</a>
+                </div>
+
+                <div class="cyber-card" data-tilt>
+                    <div class="card-top">
+                        <span class="folder-id">ID: DATA_PIPE</span>
+                        <div class="dots"><span></span><span></span></div>
+                    </div>
+                    <h3>Automated ETL Pipeline</h3>
+                    <ul class="project-bullets">
+                        <li><span class="bullet">»</span> Built end-to-end extraction with Web Scraping.</li>
+                        <li><span class="bullet">»</span> Integrated sales DBs for real-time KPI.</li>
+                        <li><span class="bullet">»</span> Analyzed 70-80% delivery efficiency.</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span>WEB SCRAPING</span><span>SQL</span><span>ETL</span>
+                    </div>
+                    <a href="#" class="card-link" data-magnetic>EXECUTE_VIEW()</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="terminal-window" data-tilt>
+                <div class="terminal-header">
+                    <div class="traffic-lights">
+                        <span class="red"></span><span class="yellow"></span><span class="green"></span>
+                    </div>
+                    <div class="terminal-title">user@praveen:~/education</div>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">user@praveen:~$</span> cat education.txt</p>
+                    <br>
+                    <div class="output-block">
+                        <span class="date">[EXP 2026]</span> <strong class="highlight">M.S. Data Science</strong><br>
+                        Regis University, Denver CO<br>
+                        <span class="comment"># Focusing on Neural Networks & Deep Learning</span>
+                    </div>
+                    <br>
+                    <div class="output-block">
+                        <span class="date">[JUN 2023]</span> <strong>B.S. Computer Science</strong><br>
+                        Osmania University, India<br>
+                        <span class="comment"># Core Engineering Principles</span>
+                    </div>
+                    <br>
+                    <p><span class="prompt">user@praveen:~$</span> list certifications --all</p>
+                    <ul class="cli-list">
+                        <li><span class="bullet">■</span> IBM Data Analyst Professional Certificate</li>
+                        <li><span class="bullet">■</span> Google Data Analytics Certification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container text-center">
+            <h2 class="contact-glitch">ESTABLISH UPLINK</h2>
+            <p>Available for Machine Learning & Data Engineering roles.</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:praveengoudangolla58@gmail.com" class="contact-btn" data-magnetic>
+                    <i class="fas fa-envelope"></i>
+                    <span>SEND_EMAIL()</span>
+                </a>
+                <a href="tel:3036688918" class="contact-btn" data-magnetic>
+                    <i class="fas fa-phone"></i>
+                    <span>VOICE_CALL()</span>
+                </a>
+                <a href="www.linkedin.com/in/angolla-praveengoud" target="_blank" class="contact-btn" data-magnetic>
+                    <i class="fab fa-linkedin"></i>
+                    <span>LINKEDIN</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-btn" data-magnetic>
+                    <i class="fab fa-github"></i>
+                    <span>GITHUB</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-line"></div>
+        <p>SYSTEM STATUS: NORMAL // &copy; 2025 PRAVEEN ANGOLLA</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
